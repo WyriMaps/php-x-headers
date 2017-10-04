@@ -3,6 +3,7 @@
 namespace WyriMaps\Tests\XHeaders;
 
 use PHPUnit\Framework\TestCase;
+use WyriMaps\XHeaders\Alliance;
 use WyriMaps\XHeaders\Horde;
 
 final class HeadersTest extends TestCase
@@ -10,6 +11,7 @@ final class HeadersTest extends TestCase
     public function factionsProvider()
     {
         yield [Horde::class];
+        yield [Alliance::class];
     }
 
     /**
