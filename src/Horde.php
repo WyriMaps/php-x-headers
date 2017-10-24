@@ -9,7 +9,7 @@ final class Horde
         return [
             'X-Horde' => 'For the Horde!',
             'X-Orc' => 'Lok-tar ogar!',
-            'x-Alliance' => 'Puny Alliance',
+            'X-Alliance' => 'Puny Alliance',
         ];
     }
 }
