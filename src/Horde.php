@@ -10,6 +10,7 @@ final class Horde
             'X-Horde' => 'For the Horde!',
             'X-Orc' => 'Lok-tar ogar!',
             'X-Alliance' => 'Puny Alliance',
+            'X-Thrall' => 'For Doomhammer!',
         ];
     }
 }
