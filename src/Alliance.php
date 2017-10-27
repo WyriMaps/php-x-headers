@@ -6,6 +6,8 @@ final class Alliance
 {
     public static function headers()
     {
-        return [];
+        return [
+            'X-Stormwind-Guard' => 'King\'s honor friend',
+        ];
     }
 }
