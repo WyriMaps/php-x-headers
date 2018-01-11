@@ -4,7 +4,7 @@ namespace WyriMaps\XHeaders;
 
 final class Alliance
 {
-    public static function headers()
+    public static function headers(): array
     {
         return [
             'X-Stormwind-Guard' => 'King\'s honor friend',

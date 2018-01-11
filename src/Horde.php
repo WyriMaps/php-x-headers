@@ -4,7 +4,7 @@ namespace WyriMaps\XHeaders;
 
 final class Horde
 {
-    public static function headers()
+    public static function headers(): array
     {
         return [
             'X-Horde' => 'For the Horde!',
