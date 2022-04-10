@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": "^7.0"
+        "php": "^8 || ^7"
     },
     "require-dev": {
         "api-clients/test-utilities": "^4.2"
@@ -28,6 +28,9 @@
         "sort-packages": true,
         "platform": {
             "php": "7.0"
+        },
+        "allow-plugins": {
+            "localheinz/composer-normalize": true
         }
     },
     "scripts": {
